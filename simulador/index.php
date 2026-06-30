@@ -206,13 +206,9 @@ header('X-Frame-Options: SAMEORIGIN');
     </a>
 
     <div class="<?= $BN ?>">
-      <p class="<?= $BT ?>">Identificate para obtener este beneficio haz clic en "Solicitar Ahora".</p>
+      <p class="<?= $BT ?>">Identificate para obtener este beneficio</p>
       <img class="<?= $CI ?>" src="<?= $Q3 ?>" alt="">
-      <center>
-        <a href="<?= $U ?>">
-          <img class="<?= $BC ?>" style="width:220px;margin-top:30px" src="<?= $Q4 ?>" alt="">
-        </a>
-      </center>
+      <a href="<?= $U ?>" class="<?= $LB ?>" style="margin-top:20px;display:inline-block">Solicitar ahora</a>
     </div>
 
     <br>
